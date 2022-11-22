@@ -26,7 +26,7 @@ struct CoffeShopDetailUIView: View {
                                         .opacity(0.8)
                                     
                                     VStack {
-                                        Image(systemName: "person.badge.plus")
+                                        Image(systemName: "person.crop.circle.fill.badge.plus").renderingMode(.original).foregroundColor(.blue) 
                                             .font(.system(size: 80))
                                             .foregroundColor(.blue)
                                         
